@@ -1,9 +1,9 @@
 ## 1 task
 PS C:\Andruha\Work\Terraform\les_7.3> terraform workspace list
 
-default
-* prod
-stage
+default  
+* prod  
+stage  
 
 ## 2 task
 C:\Andruha\Work\Terraform\les_7.3>terraform plan
