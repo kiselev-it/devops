@@ -6,6 +6,7 @@ default
 stage  
 
 ## 2 task
+```
 C:\Andruha\Work\Terraform\les_7.3>terraform plan
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the
@@ -379,3 +380,4 @@ Terraform will perform the following actions:
     }
 
 Plan: 4 to add, 0 to change, 0 to destroy.
+```
