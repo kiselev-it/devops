@@ -19,5 +19,6 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: test_db
+      ```
 
 ## Задача 2
