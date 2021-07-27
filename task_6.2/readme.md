@@ -35,4 +35,12 @@ services:
 (4 rows)
 
 ```
+```sh
+      List of relations
+ Schema |  Name   | Type  | Owner 
+--------+---------+-------+-------
+ public | clients | table | root
+ public | orders  | table | root
+(2 rows)
 
+```
