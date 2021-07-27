@@ -60,3 +60,39 @@ er of
  test_admin_user  |                                                            | {}
  test_simple_user |                                                            | {}
 ```
+## Задача 3
+Инсерты  в таблицы:
+```sh
+insert into orders (наименование, цена) values ('Шоколад', 10), ('Принтер', 3000), ('Книга', 500), ('Монитор', 7000), ('Гитара', 4000);
+```
+```sh
+insert into clients (фамилия, страна) values ('Иванов Иван Иванович', 'USA'), ('Петров Петр Петрович', 'Canada'), ('Иоганн Себастьян Бах', 'Japan'), ('Ронни Джеймс Дио', 'Russia'), ('Ritchie Blackmore', 'Russia');
+```
+вычислите количество записей для каждой таблицы
+orders
+```sh
+select count(*) from orders;
+```
+```sh
+ count 
+-------
+     5
+(1 row)
+```
+clients
+```sh
+select count(*) from clients;
+```
+```sh
+ count 
+-------
+     5
+(1 row)
+```
+
+
+
+
+
+
+
