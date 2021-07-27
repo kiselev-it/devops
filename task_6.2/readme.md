@@ -22,3 +22,17 @@ services:
 ```
 
 ## Задача 2
+```sh
+                           List of databases
+   Name    | Owner | Encoding |  Collate   |   Ctype    | Access privileges 
+-----------+-------+----------+------------+------------+-------------------
+ postgres  | root  | UTF8     | en_US.utf8 | en_US.utf8 | 
+ template0 | root  | UTF8     | en_US.utf8 | en_US.utf8 | =c/root          +
+           |       |          |            |            | root=CTc/root
+ template1 | root  | UTF8     | en_US.utf8 | en_US.utf8 | =c/root          +
+           |       |          |            |            | root=CTc/root
+ test_db   | root  | UTF8     | en_US.utf8 | en_US.utf8 | 
+(4 rows)
+
+```
+
