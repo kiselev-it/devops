@@ -22,6 +22,7 @@ services:
 ```
 
 ## Задача 2
+итоговый список БД после выполнения пунктов выше
 ```sh
                            List of databases
    Name    | Owner | Encoding |  Collate   |   Ctype    | Access privileges 
@@ -35,6 +36,7 @@ services:
 (4 rows)
 
 ```
+описание таблиц (describe)
 ```sh
       List of relations
  Schema |  Name   | Type  | Owner 
