@@ -49,3 +49,14 @@ SQL-запрос для выдачи списка пользователей с 
 ```sh
 select * from pg_shadow;
 ```
+список пользователей с правами над таблицами test_db
+```sh
+                                       List of roles
+    Role name     |                         Attributes                         | Memb
+er of 
+------------------+------------------------------------------------------------+-----
+------
+ root             | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+ test_admin_user  |                                                            | {}
+ test_simple_user |                                                            | {}
+```
