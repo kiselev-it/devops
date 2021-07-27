@@ -44,7 +44,8 @@ services:
  public | clients | table | root
  public | orders  | table | root
 (2 rows)
-
 ```
-
+SQL-запрос для выдачи списка пользователей с правами над таблицами test_db
+```sh
 select * from pg_shadow;
+```
