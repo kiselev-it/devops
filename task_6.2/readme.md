@@ -46,3 +46,5 @@ services:
 (2 rows)
 
 ```
+
+select * from pg_shadow;
