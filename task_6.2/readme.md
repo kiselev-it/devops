@@ -1,5 +1,5 @@
 ## Задача 1
-sh```
+```sh
 version: '3.1'
 
 volumes:
@@ -19,6 +19,6 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: test_db
-      ```
+```
 
 ## Задача 2
