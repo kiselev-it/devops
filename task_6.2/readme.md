@@ -1,18 +1,13 @@
 ## Задача 1
 ```sh
-version: '3.1'
-
-volumes:
-  data:
-  dump:
+version: '3.7'
 
 services:
   pg_db:
     image: postgres
     restart: always
     volumes:
-      - data:/home/work/sql/data
-      - dump:/home/work/sql/dump
+      - ./dump:/dump
     ports:
       - "5432:5432"
     environment:
@@ -127,7 +122,9 @@ width - средний размер строк в байтах
 ```sh
 pg_dump test_db > /dump/first.dump
 ```
-
+```sh
+psql -U root -d test_db < dump/first.dump
+```
 
 
 
