@@ -93,7 +93,6 @@ secure-file-priv= NULL
 innodb_buffer_pool_size = 1G
 innodb_log_file_size = 512M
 innodb_log_buffer_size = 1M
-innodb_log_buffer_size = 100M
 innodb_file_per_table = 1
 innodb_flush_method = O_DIRECT
 max_binlog_size = 100M
