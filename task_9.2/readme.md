@@ -19,6 +19,7 @@ maven-metadata.xml
 </metadata>
 ```
 # Знакомство с Maven
+pom.xml
 ```sh
   GNU nano 4.8                                               pom.xml                                                Modified  
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
