@@ -1,1 +1,1 @@
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_9.2/1.png?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/1.png?raw=true)
