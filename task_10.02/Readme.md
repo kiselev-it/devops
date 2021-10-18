@@ -25,5 +25,12 @@ Pull-модель
  ```sh
 
  ```
-
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_10.02/1.png?raw=true)
+
+# 4 Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer
+
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_10.02/2.png?raw=true)
+
+# 5 Изучите список telegraf inputs. Добавьте в конфигурацию telegraf следующий плагин - docker
+
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_10.02/3.png?raw=true)
