@@ -12,8 +12,8 @@
         mode: 0755 # задаются права
         timeout: 60
         force: true
-      register: get_kibana # вписать результат в переменную get_kibana
-      until: get_kibana is succeeded # Повторять выполнение пока не получит код ответ:succeeded (не более трех раз)
+      register: get_kibana # записывает результат в переменную get_kibana
+      until: get_kibana is succeeded # Повторят выполнение, пока не получит статус succeeded (по умол. будет пытаться повторить не более трех раз)
       tags: kibana # тэг
     - name: Create directrory for Kibana
       file: # содается директория 
@@ -27,7 +27,7 @@
         src: "/tmp/kibana-{{ kibana_version }}-linux-x86_64.tar.gz" # где лежит архив
         dest: "{{ kibana_home }}" # куда распокавать
         extra_opts: [--strip-components=1] # доп опция архиватора
-        creates: "{{ kibana_home }}/bin/kibana" # проверка
+        creates: "{{ kibana_home }}/bin/kibana" # проверка создана ли директория
       tags:
         - skip_ansible_lint # тэг
         - kibana # тэг
