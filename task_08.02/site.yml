@@ -8,7 +8,7 @@
       tags: java
     - name: Upload .tar.gz file containing binaries from local storage
       copy:
-        src: "{{ java_oracle_jdk_package }}"
+        src: "/tmp/{{ java_oracle_jdk_package }}"
         dest: "/tmp/jdk-{{ java_jdk_version }}.tar.gz"
       register: download_java_binaries
       until: download_java_binaries is succeeded
@@ -73,9 +73,6 @@
 - name: Install Kibana
   hosts: elasticsearch
   tasks:
-    - name: Include vars
-      include_vars:
-        file: group_vars/kibana/vars.yml
     - name: Upload tar.gz Kibana from remote URL
       get_url:
         url: "https://artifacts.elastic.co/downloads/kibana/kibana-{{ kibana_version }}-linux-x86_64.tar.gz"
