@@ -13,7 +13,7 @@
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_08.01/3.PNG?raw=true)
 
 5. Добавьте факты в group_vars каждой из групп хостов так, чтобы для some_fact получились следующие значения: для deb - 'deb default fact', для el - 'el default fact'.
-6. Добавьте факты в group_vars каждой из групп хостов так, чтобы для some_fact получились следующие значения: для deb - 'deb default fact', для el - 'el default fact'.
+6. Повторите запуск playbook на окружении prod.yml. Убедитесь, что выдаются корректные значения для всех хостов.
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_08.01/5.PNG?raw=true)
 
