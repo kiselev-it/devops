@@ -73,6 +73,9 @@
 - name: Install Kibana
   hosts: elasticsearch
   tasks:
+    - name: Include vars
+      include_vars:
+        file: group_vars/kibana/vars.yml
     - name: Upload tar.gz Kibana from remote URL
       get_url:
         url: "https://artifacts.elastic.co/downloads/kibana/kibana-{{ kibana_version }}-linux-x86_64.tar.gz"
