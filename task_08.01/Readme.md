@@ -5,7 +5,7 @@
 
 2. Найдите файл с переменными (group_vars) в котором задаётся найденное в первом пункте значение и поменяйте его на 'all default fact'.
 
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_08.01/1.PNG?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_08.01/2.PNG?raw=true)
 
 4. Проведите запуск playbook на окружении из prod.yml. Зафиксируйте полученные значения some_fact для каждого из managed host.
 
