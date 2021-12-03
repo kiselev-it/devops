@@ -49,3 +49,7 @@
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_12.2/png/12.PNG?raw=true)
 
 
+Статьи:
+- https://cloud.croc.ru/blog/byt-v-teme/kubernetes-1-7-nastroika/
+- https://temofeev.ru/info/articles/polzovateli-i-avtorizatsiya-rbac-v-kubernetes/
+- https://kubernetes.io/docs/reference/access-authn-authz/rbac/
