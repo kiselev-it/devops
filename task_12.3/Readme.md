@@ -11,10 +11,10 @@
 Название|CPU|RAM|Disk|Кол-во|CPU|RAM|Disk| 
 |---|---|---|---|---|---|---|---|
 БД|4 CPU|4 Гб|50 Гб|3|12 CPU|12 Гб|150 Гб|   
-кэш|1 CPU|4 Гб|-|3|3 CPU|12 Гб|-|  
+кэш|1 CPU|4 Гб|1 Гб|3|3 CPU|12 Гб|3 Гб|  
 фронтенд|0,1 CPU|50 Мб|200 Мб|5|0,5 CPU|0,25 Гб|1 Гб|  
 бекенд|1 CPU|600 Мб|400 Мб|10|10 CPU|6 Гб|4 Гб|  
-|**Всего**|||||**25,5 CPU**|**30,25 Гб**|**155 Гб**|  
+|**Всего**|||||**25,5 CPU**|**30,25 Гб**|**158 Гб**|  
 <br>
 
 Предлагаю разделить на 3 воркер ноды и + 1 масетр нода (CPU и RAN - 2 Гб, Disk - 50 Гб)
@@ -24,9 +24,9 @@
 
 № Ноды|БД (шт)|Кэш (шт)|Фронтенд (шт)|Бэкенд (шт)|CPU|RAM|Disk| 
 |---|---|---|---|---|---|---|---|
-<span style = color:red>**1**</span>|1|1|2|3|<span style = color:red>9 CPU</span>|<span style = color:red>10 Гб</span>|<span style = color:red>53 Гб</span>|   
-<span style = color:red>**2**</span>|1|1|2|3|<span style = color:red>9 CPU</span>|<span style = color:red>10 Гб</span>|<span style = color:red>53 Гб</span>|  
-<span style = color:red>**3**</span>|1|1|1|4|<span style = color:red>10 Гб</span>|<span style = color:red>11 Гб</span>|<span style = color:red>53 Гб</span>|   
+<span style = color:red>**1**</span>|1|1|2|3|<span style = color:red>9 CPU</span>|<span style = color:red>10 Гб</span>|<span style = color:red>54 Гб</span>|   
+<span style = color:red>**2**</span>|1|1|2|3|<span style = color:red>9 CPU</span>|<span style = color:red>10 Гб</span>|<span style = color:red>54 Гб</span>|  
+<span style = color:red>**3**</span>|1|1|1|4|<span style = color:red>10 CPU</span>|<span style = color:red>11 Гб</span>|<span style = color:red>54 Гб</span>|   
 
 <br>
 
