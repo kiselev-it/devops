@@ -37,7 +37,7 @@ spec:
             - name: BASE_URL
               value: "http://localhost:8080"
         - name: back
-          image: tomcat
+          image: tomcat:8.5.38
           imagePullPolicy: IfNotPresent
           ports:
             - name: for-tomcat
@@ -107,6 +107,7 @@ spec:
     - metadata:
         name: postgresql-db-disk
       spec:
+        storageClassName: "nfs"
         accessModes: ["ReadWriteOnce"]
         resources:
           requests:
@@ -137,7 +138,6 @@ spec:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.1/png/3.PNG?raw=true)
 
-Томкат 404 так и не понял почему, но на контейнер заходит.
 
 # Задание 2: подготовить конфиг для production окружения
 
@@ -215,7 +215,7 @@ spec:
     spec:
       containers:
         - name: back
-          image: tomcat
+          image: tomcat:8.5.38
           imagePullPolicy: IfNotPresent
           ports:
             - name: for-tomcat
@@ -281,6 +281,7 @@ spec:
     - metadata:
         name: postgresql-db-disk
       spec:
+        storageClassName: "nfs"
         accessModes: ["ReadWriteOnce"]
         resources:
           requests:
@@ -305,9 +306,3 @@ spec:
 Проверка:  
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.1/png/4.PNG?raw=true)
-
-Но statefulset в статусе pending, не могу понять в чем ошибка. Делал по мануалу:
-- https://www.bmc.com/blogs/kubernetes-postgresql/
-- https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
-
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.1/png/5.PNG?raw=true)
