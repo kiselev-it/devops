@@ -34,10 +34,10 @@ C фронта на бэк:
 
 Скеил до 3 реплик фронта и бэка:
 
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.5/png/8.PNG?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/8.PNG?raw=true)
 
 Обратное сокразение до 1 реплик:
 
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.5/png/9.PNG?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/9.PNG?raw=true)
 
 На каких нодах оказались копии видно через : `kubectl --namespace=production get po -o wide`
