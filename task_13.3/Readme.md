@@ -26,7 +26,7 @@ C фронта на бэк:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/6.PNG?raw=true)
 
-Как на бед сделать запрос для проверки не знаю. Проверил просто работоспособность контейнера:
+Как на бд сделать запрос для проверки не знаю. Проверил просто работоспособность контейнера:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/7.PNG?raw=true)
 
@@ -36,7 +36,7 @@ C фронта на бэк:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/8.PNG?raw=true)
 
-Обратное сокразение до 1 реплик:
+Обратное сокращение до 1 реплик:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/9.PNG?raw=true)
 
