@@ -1,6 +1,6 @@
 # Задание 1: проверить работоспособность каждого компонента
 
-Манифесты взяты из дз 13.1.  
+Манифесты взяты из дз 13.1 (https://github.com/kiselev-it/devops/tree/main/task_13.1).  
 Пробросил порты:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/1.PNG?raw=true)
@@ -16,19 +16,19 @@ back:
 Проверка через exec:  
 ip подов:  
 
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.4/png/4.PNG?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/4.PNG?raw=true)
 
 C фронта на бэк:
 
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.5/png/5.PNG?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/5.PNG?raw=true)
 
 С бэка на фронт:
 
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.5/png/6.PNG?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/6.PNG?raw=true)
 
 Как на бед сделать запрос для проверки не знаю. Проверил просто работоспособность контейнера:
 
-![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.5/png/7.PNG?raw=true)
+![alt text](https://github.com/kiselev-it/devops/blob/main/task_13.3/png/7.PNG?raw=true)
 
 # Задание 2: ручное масштабирование
 
