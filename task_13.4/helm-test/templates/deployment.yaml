@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-front-app
+  labels:
+    app: {{ .Release.Name }}-front-app
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}
+  replicas: {{ .Values.replicaCount }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}
+    spec:
+      containers:
+        - name: {{ .Release.Name }}-front-app
+          image: {{ .Values.containers.image }}
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: for-front-app
+              containerPort: {{ .Values.frontAppPort }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}

@@ -1,0 +1,22 @@
+namespace: test
+
+frontAppPort: 80
+
+replicaCount: 2
+
+containers:
+  image: nginx
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80
+
+resources:
+   limits:
+     cpu: 200m
+     memory: 256Mi
+   requests:
+     cpu: 100m
+     memory: 128Mi
+
