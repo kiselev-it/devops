@@ -113,7 +113,7 @@ resources:
 При попытке деплоя второй версии в том же namespace выходит ошибка (на скрине видно):
 
 ```
-Error: INSTALLATION FAILED: rendered manifests contain a resource that already exists. Unable to continue with install: Namespace "app1" in namespace "" exists and cannot be imported into the current release: invalid ownership metadata; annotation validation error: key "meta.helm.sh/release-name" must equal "test3": current value is "test1"
+Error: INSTALLATION FAILED: rendered manifests contain a   resource that already exists. Unable to continue with   install: Namespace "app1" in namespace "" exists and cannot   be imported into the current release: invalid ownership   metadata; annotation validation error: key   "meta.helm.sh/release-name" must equal "test3": current   value is "test1"
 ```
 Так и не понял почему не получается, хотя смотрел видео и там получилось сделать (https://www.youtube.com/watch?v=-lLT0vlaBpk&list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi&index=12).  
 Возмодно разные версии helm/kubernetes.
