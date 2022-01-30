@@ -1,7 +1,7 @@
 # Задание 1. Яндекс.Облако (обязательное к выполнению)
-Файлы дежат в директории [15.2](https://github.com/kiselev-it/devops/tree/main/task_15.2/15.2/)
+Файлы лежат в директории [15.2](https://github.com/kiselev-it/devops/tree/main/task_15.2/15.2/).
 
-terraform apply:
+Инициализирую ресурсы - terraform apply:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_15.2/png/1.PNG?raw=true)
 
@@ -134,7 +134,7 @@ resource "yandex_lb_network_load_balancer" "lb" {
 }
 ```
 
-Балансировзик с ip 62.84.118.201:
+Балансировщик с ip 62.84.118.201:
 
 ![alt text](https://github.com/kiselev-it/devops/blob/main/task_15.2/png/5.PNG?raw=true)
 
